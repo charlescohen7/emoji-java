@@ -21354,5 +21354,16 @@
         "tags": [
             "swastika"
         ]
+    },
+    {
+        "emojiChar": "卐",
+        "emoji": "\u5350",
+        "description": "swastika",
+        "aliases": [
+            "swastika"
+        ],
+        "tags": [
+            "swastika"
+        ]
     }
 ]
