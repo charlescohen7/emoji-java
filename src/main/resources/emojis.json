@@ -21343,5 +21343,16 @@
             "flag",
             "wales"
         ]
+    },
+    {
+        "emojiChar": "卍",
+        "emoji": "\u534D",
+        "description": "swastika",
+        "aliases": [
+            "swastika"
+        ],
+        "tags": [
+            "swastika"
+        ]
     }
 ]
