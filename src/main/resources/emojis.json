@@ -17067,6 +17067,18 @@
         ]
     },
     {
+        "emojiChar": "🇾",
+        "emoji": "\uD83C\uDDFE",
+        "description": "input latin uppercase",
+        "aliases": [
+            "capital_y"
+        ],
+        "tags": [
+            "letter",
+	    "y"
+        ]
+    },
+    {
         "emojiChar": "🔡",
         "emoji": "\uD83D\uDD21",
         "description": "input latin lowercase",
@@ -21345,6 +21357,30 @@
         ]
     },
     {
+        "emojiChar": "🇮🇱",
+        "emoji": "\uD83C\uDDEE\uD83C\uDDF1",
+        "description": "flag: Israel",
+        "aliases": [
+            "israel"
+        ],
+        "tags": [
+            "flag",
+            "israel"
+        ]
+    },
+    {
+        "emojiChar": "🇵🇸",
+        "emoji": "\uD83C\uDDF5\uD83C\uDDF8",
+        "description": "flag: Palestine",
+        "aliases": [
+            "palestine"
+        ],
+        "tags": [
+            "flag",
+            "palestine"
+        ]
+    },
+    {
         "emojiChar": "卍",
         "emoji": "\u534D",
         "description": "swastika",
@@ -21364,6 +21400,31 @@
         ],
         "tags": [
             "swastika"
+        ]
+    },
+    {
+        "emojiChar": "❤️‍🔥",
+        "emoji": "\u2764\uFE0F\u200D\uD83D\uDD25",
+        "description": "heart in fire",
+        "aliases": [
+            "heart",
+            "fire"
+        ],
+        "tags": [
+            "heart",
+            "fire"
+        ]
+    },
+    {
+        "emojiChar": "🏎",
+        "emoji": "\uD83C\uDFCE",
+        "description": "racing car",
+        "aliases": [
+            "racing",
+            "car"
+        ],
+        "tags": [
+            "car"
         ]
     }
 ]
