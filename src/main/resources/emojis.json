@@ -21426,5 +21426,17 @@
         "tags": [
             "car"
         ]
+    },
+    {
+        "emojiChar": "🍽",
+        "emoji": "\u1F37D",
+        "description": "fork and knife with plate",
+        "aliases": [
+            "fork",
+            "knife"
+        ],
+        "tags": [
+            "plate"
+        ]
     }
 ]
