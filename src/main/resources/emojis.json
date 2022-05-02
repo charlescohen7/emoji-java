@@ -21438,5 +21438,18 @@
         "tags": [
             "plate"
         ]
+    },
+    {
+        "emojiChar": "🫶",
+        "emoji": "\u1FAF6",
+        "description": "heart hands, love",
+        "aliases": [
+            "heart",
+            "hands"
+        ],
+        "tags": [
+            "heart",
+            "hands"
+        ]
     }
 ]
