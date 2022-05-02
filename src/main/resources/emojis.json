@@ -21429,7 +21429,7 @@
     },
     {
         "emojiChar": "🍽",
-        "emoji": "\u1F37D",
+        "emoji": "\uD83C\uDF7D",
         "description": "fork and knife with plate",
         "aliases": [
             "fork",
@@ -21441,7 +21441,7 @@
     },
     {
         "emojiChar": "🫶",
-        "emoji": "\u1FAF6",
+        "emoji": "\uD83E\uDEF6",
         "description": "heart hands, love",
         "aliases": [
             "heart",
