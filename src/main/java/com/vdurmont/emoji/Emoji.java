@@ -14,6 +14,7 @@ import java.util.List;
 public class Emoji {
   private final String description;
   private final boolean supportsFitzpatrick;
+  private final boolean emoji_used_for_spam;
   private final List<String> aliases;
   private final List<String> tags;
   private final String unicode;
@@ -34,10 +35,12 @@ public class Emoji {
     boolean supportsFitzpatrick,
     List<String> aliases,
     List<String> tags,
+    boolean emoji_used_for_spam,
     byte... bytes
   ) {
     this.description = description;
     this.supportsFitzpatrick = supportsFitzpatrick;
+    this.emoji_used_for_spam = emoji_used_for_spam;
     this.aliases = Collections.unmodifiableList(aliases);
     this.tags = Collections.unmodifiableList(tags);
 
@@ -91,6 +94,10 @@ public class Emoji {
    */
   public boolean supportsFitzpatrick() {
     return this.supportsFitzpatrick;
+  }
+
+  public boolean isEmojiUsedForSpam() {
+    return this.emoji_used_for_spam;
   }
 
   /**
