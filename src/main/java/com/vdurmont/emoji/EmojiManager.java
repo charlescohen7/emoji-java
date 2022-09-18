@@ -146,6 +146,21 @@ public class EmojiManager {
             unicodeCandidate.getFitzpatrickEndIndex() == string.length();
   }
 
+  public static EmojiParser.UnicodeCandidate getEmojiOrNull(String string) {
+
+    if (string == null) return null;
+
+    EmojiParser.UnicodeCandidate unicodeCandidate = EmojiParser.getNextUnicodeCandidate(string.toCharArray(), 0);
+    if (unicodeCandidate != null &&
+            unicodeCandidate.getEmojiStartIndex() == 0 &&
+            unicodeCandidate.getFitzpatrickEndIndex() == string.length()) {
+      return unicodeCandidate;
+    }
+
+    return null;
+
+  }
+
   /**
    * Tests if a given String contains an emoji.
    *

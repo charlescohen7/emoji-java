@@ -178,5 +178,137 @@
         "tags": [
             "o"
         ]
+    },
+    {
+        "emojiChar": "🅟",
+        "emoji": "\uD83C\uDD5F",
+        "emoji_used_for_spam": true,
+        "description": "P spam letter",
+        "aliases": [
+            "p"
+        ],
+        "tags": [
+            "p"
+        ]
+    },
+    {
+        "emojiChar": "🅠",
+        "emoji": "\uD83C\uDD60",
+        "emoji_used_for_spam": true,
+        "description": "Q spam letter",
+        "aliases": [
+            "q"
+        ],
+        "tags": [
+            "q"
+        ]
+    },
+    {
+        "emojiChar": "🅡",
+        "emoji": "\uD83C\uDD61",
+        "emoji_used_for_spam": true,
+        "description": "R spam letter",
+        "aliases": [
+            "r"
+        ],
+        "tags": [
+            "r"
+        ]
+    },
+    {
+        "emojiChar": "🅢",
+        "emoji": "\uD83C\uDD62",
+        "emoji_used_for_spam": true,
+        "description": "S spam letter",
+        "aliases": [
+            "s"
+        ],
+        "tags": [
+            "s"
+        ]
+    },
+    {
+        "emojiChar": "🅣",
+        "emoji": "\uD83C\uDD63",
+        "emoji_used_for_spam": true,
+        "description": "T spam letter",
+        "aliases": [
+            "t"
+        ],
+        "tags": [
+            "t"
+        ]
+    },
+    {
+        "emojiChar": "🅤",
+        "emoji": "\uD83C\uDD64",
+        "emoji_used_for_spam": true,
+        "description": "U spam letter",
+        "aliases": [
+            "u"
+        ],
+        "tags": [
+            "u"
+        ]
+    },
+    {
+        "emojiChar": "🅥",
+        "emoji": "\uD83C\uDD65",
+        "emoji_used_for_spam": true,
+        "description": "V spam letter",
+        "aliases": [
+            "v"
+        ],
+        "tags": [
+            "v"
+        ]
+    },
+    {
+        "emojiChar": "🅦",
+        "emoji": "\uD83C\uDD66",
+        "emoji_used_for_spam": true,
+        "description": "W spam letter",
+        "aliases": [
+            "w"
+        ],
+        "tags": [
+            "w"
+        ]
+    },
+    {
+        "emojiChar": "🅧",
+        "emoji": "\uD83C\uDD67",
+        "emoji_used_for_spam": true,
+        "description": "X spam letter",
+        "aliases": [
+            "x"
+        ],
+        "tags": [
+            "x"
+        ]
+    },
+    {
+        "emojiChar": "🅨",
+        "emoji": "\uD83C\uDD68",
+        "emoji_used_for_spam": true,
+        "description": "Y spam letter",
+        "aliases": [
+            "y"
+        ],
+        "tags": [
+            "y"
+        ]
+    },
+    {
+        "emojiChar": "🅩",
+        "emoji": "\uD83C\uDD69",
+        "emoji_used_for_spam": true,
+        "description": "Z spam letter",
+        "aliases": [
+            "z"
+        ],
+        "tags": [
+            "z"
+        ]
     }
 ]
