@@ -12,6 +12,7 @@ import java.util.*;
 public class EmojiManager {
   private static final String PATH = "/emojis.json";
   private static final String FLAGS_ALTERNATIVES_PATH = "/flags_emojis_alternatives.json";
+  private static final String FORBIDDEN_EMOJIS_PATH = "/forbidden_emojis.json";
   private static final Map<String, Emoji> EMOJIS_BY_ALIAS =
     new HashMap<String, Emoji>();
   private static final Map<String, Set<Emoji>> EMOJIS_BY_TAG =
@@ -27,8 +28,12 @@ public class EmojiManager {
       InputStream moreFlagsAlternativeStream = EmojiLoader.class.getResourceAsStream(FLAGS_ALTERNATIVES_PATH);
       List<Emoji> flagsAlternativesEmojis = EmojiLoader.loadEmojis(moreFlagsAlternativeStream);
 
+      InputStream forbiddenEmojisStream = EmojiLoader.class.getResourceAsStream(FORBIDDEN_EMOJIS_PATH);
+      List<Emoji> forbiddenEmojis = EmojiLoader.loadEmojis(forbiddenEmojisStream);
+
       ALL_EMOJIS.addAll(emojis);
       ALL_EMOJIS.addAll(flagsAlternativesEmojis);
+      ALL_EMOJIS.addAll(forbiddenEmojis);
 
       for (Emoji emoji : ALL_EMOJIS) {
         for (String tag : emoji.getTags()) {
