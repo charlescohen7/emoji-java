@@ -21443,6 +21443,7 @@
         "emojiChar": "🫶",
         "emoji": "\uD83E\uDEF6",
         "description": "heart hands, love",
+        "supports_fitzpatrick": true,
         "aliases": [
             "heart",
             "hands"
