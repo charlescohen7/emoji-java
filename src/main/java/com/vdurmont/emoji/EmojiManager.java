@@ -39,8 +39,6 @@ public class EmojiManager {
       ALL_EMOJIS.addAll(flagsAlternativesEmojis);
       ALL_EMOJIS.addAll(forbiddenEmojis);
 
-      System.out.println("Loading here...");
-
       for (Emoji emoji : ALL_EMOJIS) {
         for (String tag : emoji.getTags()) {
           if (EMOJIS_BY_TAG.get(tag) == null) {
