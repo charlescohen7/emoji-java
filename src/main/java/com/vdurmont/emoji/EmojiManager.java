@@ -17,11 +17,15 @@ public class EmojiManager {
     new HashMap<String, Emoji>();
   private static final Map<String, Set<Emoji>> EMOJIS_BY_TAG =
     new HashMap<String, Set<Emoji>>();
-  private static final List<Emoji> ALL_EMOJIS = new ArrayList<Emoji>();
+  private static final List<Emoji> ALL_EMOJIS;
   static final EmojiTrie EMOJI_TRIE;
 
   static {
+
     try {
+
+      ALL_EMOJIS = new ArrayList<Emoji>();
+
       InputStream stream = EmojiLoader.class.getResourceAsStream(PATH);
       List<Emoji> emojis = EmojiLoader.loadEmojis(stream);
 
@@ -34,6 +38,8 @@ public class EmojiManager {
       ALL_EMOJIS.addAll(emojis);
       ALL_EMOJIS.addAll(flagsAlternativesEmojis);
       ALL_EMOJIS.addAll(forbiddenEmojis);
+
+      System.out.println("Loading here...");
 
       for (Emoji emoji : ALL_EMOJIS) {
         for (String tag : emoji.getTags()) {
