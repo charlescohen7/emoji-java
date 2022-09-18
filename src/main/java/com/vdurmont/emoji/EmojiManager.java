@@ -2,14 +2,7 @@ package com.vdurmont.emoji;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Holds the loaded emojis and provides search functions.
@@ -23,7 +16,7 @@ public class EmojiManager {
     new HashMap<String, Emoji>();
   private static final Map<String, Set<Emoji>> EMOJIS_BY_TAG =
     new HashMap<String, Set<Emoji>>();
-  private static final List<Emoji> ALL_EMOJIS;
+  private static final List<Emoji> ALL_EMOJIS = new ArrayList<Emoji>();
   static final EmojiTrie EMOJI_TRIE;
 
   static {
@@ -34,7 +27,7 @@ public class EmojiManager {
       InputStream moreFlagsAlternativeStream = EmojiLoader.class.getResourceAsStream(FLAGS_ALTERNATIVES_PATH);
       List<Emoji> flagsAlternativesEmojis = EmojiLoader.loadEmojis(moreFlagsAlternativeStream);
 
-      ALL_EMOJIS = emojis;
+      ALL_EMOJIS.addAll(emojis);
       ALL_EMOJIS.addAll(flagsAlternativesEmojis);
 
       for (Emoji emoji : ALL_EMOJIS) {
