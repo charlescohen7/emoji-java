@@ -2000,6 +2000,20 @@
         ]
     },
     {
+        "emojiChar": "🫅",
+        "emoji": "\uD83E\uDEC5",
+        "description": "person with crown",
+        "supports_fitzpatrick": true,
+        "aliases": [
+            "person",
+            "crown"
+        ],
+        "tags": [
+            "person",
+            "crown"
+        ]
+    },
+    {
         "emojiChar": "👆",
         "emoji": "\uD83D\uDC46",
         "description": "backhand index pointing up",
