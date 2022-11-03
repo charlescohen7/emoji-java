@@ -189,7 +189,7 @@ public class EmojiManager {
 
     String emoji = EmojiParser.removeAllEmojis(string);
 
-    return emoji.isEmpty() || emoji.equals("\uFE0F");
+    return emoji.isEmpty() || emoji.equals("️");
 
   }
 
