@@ -189,6 +189,7 @@ public class EmojiManager {
 
     String emoji = EmojiParser.removeAllEmojis(string);
 
+    // Be careful about equals(""), there is an invisible character inside really important (\uFE0F)
     return emoji.isEmpty() || emoji.equals("️");
 
   }
