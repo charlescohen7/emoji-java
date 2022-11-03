@@ -182,7 +182,15 @@ public class EmojiManager {
    * @return true if the string only contains emojis, false else
    */
   public static boolean isOnlyEmojis(String string) {
-    return string != null && EmojiParser.removeAllEmojis(string).isEmpty();
+
+    if (string == null) {
+      return false;
+    }
+
+    String emoji = EmojiParser.removeAllEmojis(string);
+
+    return emoji.isEmpty() || emoji.equals("\uFE0F");
+
   }
 
   /**
