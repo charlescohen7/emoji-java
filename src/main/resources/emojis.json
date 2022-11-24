@@ -21466,5 +21466,20 @@
             "heart",
             "hands"
         ]
+    },
+    {
+        "emojiChar": "🏳️‍🌈⃠",
+        "emoji": "\uD83C\uDFF3️\u200D\uD83C\uDF08\u20E0",
+        "description": "anti lgbt",
+        "supports_fitzpatrick": false,
+        "aliases": [
+            "anti",
+            "lgbt"
+        ],
+        "tags": [
+            "anti",
+            "lgbt"
+        ]
     }
+
 ]
