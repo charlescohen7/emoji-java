@@ -21480,6 +21480,21 @@
             "anti",
             "lgbt"
         ]
+    },
+    {
+        "emojiChar": "🏳️‍🌈⃠",
+        "emoji": "\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08\u20E0",
+        "description": "anti lgbt 2",
+        "supports_fitzpatrick": false,
+        "aliases": [
+            "anti",
+            "lgbt",
+            "2"
+        ],
+        "tags": [
+            "anti",
+            "lgbt",
+            "2"
+        ]
     }
-
 ]
