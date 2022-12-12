@@ -1832,7 +1832,7 @@
     },
     {
         "emojiChar": "🖐️",
-        "emoji": "\uD83D\uDD90\uFE0F",
+        "emoji": "\uD83D\uDD90",
         "description": "hand with fingers splayed",
         "supports_fitzpatrick": true,
         "aliases": [
