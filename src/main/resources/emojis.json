@@ -2634,6 +2634,21 @@
         ]
     },
     {
+        "emojiChar": "👩🏻‍🦰",
+        "emoji": "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB0",
+        "description": "woman: red hair",
+        "supports_fitzpatrick": false,
+        "aliases": [
+            "woman_with_red_hair",
+            "woman_redhead",
+            "woman_ginger",
+            "red_haired_woman"
+        ],
+        "tags": [
+
+        ]
+    },
+    {
         "emojiChar": "👩‍🦰",
         "emoji": "\uD83D\uDC69\u200D\uD83E\uDDB0",
         "description": "woman: red hair",
