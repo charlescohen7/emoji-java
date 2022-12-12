@@ -2354,7 +2354,7 @@
     },
     {
         "emojiChar": "🏳️‍🌈",
-        "emoji": "\uD83C\uDFF3\u200D\uD83C\uDF08",
+        "emoji": "\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08",
         "description": "rainbow flag",
         "aliases": [
             "rainbow_flag",
