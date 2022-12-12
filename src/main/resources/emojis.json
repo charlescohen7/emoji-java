@@ -1832,6 +1832,18 @@
     },
     {
         "emojiChar": "🖐️",
+        "emoji": "\uD83D\uDD90\uFE0F",
+        "description": "hand with fingers splayed",
+        "supports_fitzpatrick": true,
+        "aliases": [
+            "raised_hand_with_fingers_splayed"
+        ],
+        "tags": [
+
+        ]
+    },
+    {
+        "emojiChar": "🖐️",
         "emoji": "\uD83D\uDD90",
         "description": "hand with fingers splayed",
         "supports_fitzpatrick": true,
