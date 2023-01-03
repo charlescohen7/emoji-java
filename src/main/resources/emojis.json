@@ -843,6 +843,19 @@
         ]
     },
     {
+        "emojiChar": "😮‍💨",
+        "emoji": "\uD83D\uDE2E\u200D\uD83D\uDCA8",
+        "description": "face with exhalation mouth",
+        "aliases": [
+            "exhalation_mouth"
+        ],
+        "tags": [
+            "face",
+            "exhalation",
+            "mouth"
+        ]
+    },
+    {
         "emojiChar": "😮",
         "emoji": "\uD83D\uDE2E",
         "description": "face with open mouth",
