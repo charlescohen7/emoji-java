@@ -1573,6 +1573,17 @@
         ]
     },
     {
+        "emojiChar": "♥",
+        "emoji": "\u2665",
+        "description": "default heart",
+        "aliases": [
+            "heart"
+        ],
+        "tags": [
+            "love"
+        ]
+    },
+    {
         "emojiChar": "🧡",
         "emoji": "\uD83E\uDDE1",
         "description": "orange heart",
