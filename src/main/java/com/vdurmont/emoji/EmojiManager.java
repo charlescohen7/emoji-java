@@ -190,7 +190,14 @@ public class EmojiManager {
     String emoji = EmojiParser.removeAllEmojis(string);
 
     // Be careful about replaceAll(""), there is an invisible character inside really important (\uFE0F)
-    return emoji.replaceAll("️", "").isEmpty();
+    return emoji.replaceAll("️", "")
+            .replaceAll("‌", "")
+            .replaceAll(" ", "")
+            .replaceAll("​", "")
+            .replaceAll("‍", "")
+            .replaceAll("‎", "")
+            .replaceAll("‏", "")
+            .isEmpty();
 
   }
 
