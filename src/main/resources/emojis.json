@@ -22182,5 +22182,85 @@
         "supports_fitzpatrick": false,
         "aliases": [],
         "tags": ["black", "bird", "animal"]
+    },
+    {
+        "emojiChar": "🍋‍🟩",
+        "emoji": "\uD83C\uDF4B\u200D\uD83D\uDFF9",
+        "description": "Lime",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["lime"]
+    },
+    {
+        "emojiChar": "🙂‍↕️",
+        "emoji": "\uD83D\uDE42\u200D\u2195️",
+        "description": "Head Shaking Vertically",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["head", "shake", "vertical"]
+    },
+    {
+        "emojiChar": "🧑‍🧒‍🧒",
+        "emoji": "\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2",
+        "description": "Family: Adult, Child, Child",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["family", "adult", "child"]
+    },
+    {
+        "emojiChar": "🧑‍🧑‍🧒‍🧒",
+        "emoji": "\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2",
+        "description": "Family: Adult, Adult, Child, Child",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["family", "adult", "child"]
+    },
+    {
+        "emojiChar": "🧑‍🧑‍🧒",
+        "emoji": "\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2",
+        "description": "Family: Adult, Adult, Child",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["family", "adult", "child"]
+    },
+    {
+        "emojiChar": "🐦‍🔥",
+        "emoji": "\uD83D\uDC26\u200D\uD83D\uDD25",
+        "description": "Phoenix Bird",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["phoenix", "bird"]
+    },
+    {
+        "emojiChar": "🧑‍🧒",
+        "emoji": "\uD83E\uDDD1\u200D\uD83E\uDDD2",
+        "description": "Family: Adult, Child",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["family", "adult", "child"]
+    },
+    {
+        "emojiChar": "🔗‍💥",
+        "emoji": "\uD83D\uDD17\u200D\uD83D\uDCA5",
+        "description": "Broken Chain",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["broken", "chain"]
+    },
+    {
+        "emojiChar": "🍄‍🟫",
+        "emoji": "\uD83C\uDF44\u200D\uD83D\uDFEB",
+        "description": "Brown Mushroom",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["brown", "mushroom"]
+    },
+    {
+        "emojiChar": "🙂‍↔️",
+        "emoji": "\uD83D\uDE42\u200D\u2194️",
+        "description": "Head Shaking Horizontally",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["head", "shake", "horizontal"]
     }
 ]
