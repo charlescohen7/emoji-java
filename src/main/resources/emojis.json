@@ -1403,6 +1403,19 @@
         ]
     },
     {
+        "emojiChar": "🫢",
+        "emoji": "\uD83E\uDEE2",
+        "description": "face with hand over mouth",
+        "aliases": [
+            "face_with_hand_over_mouth"
+        ],
+        "tags": [
+            "face",
+            "hand",
+            "mouth"
+        ]
+    },
+    {
         "emojiChar": "🙉",
         "emoji": "\uD83D\uDE49",
         "description": "hear-no-evil monkey",
@@ -1905,6 +1918,20 @@
             "salute",
             "prosper",
             "spock"
+        ]
+    },
+    {
+        "emojiChar": "🫵",
+        "emoji": "\uD83E\uDEF5",
+        "description": "hand pointing index",
+        "supports_fitzpatrick": true,
+        "aliases": [
+            "hand_pointing_index"
+        ],
+        "tags": [
+            "hand",
+            "pointing",
+            "index"
         ]
     },
     {
@@ -14659,6 +14686,17 @@
         ],
         "tags": [
 
+        ]
+    },
+    {
+        "emojiChar": "🗑",
+        "emoji": "\uD83D\uDDD1",
+        "description": "wastebasket",
+        "aliases": [
+            "wastebasket"
+        ],
+        "tags": [
+            "trash"
         ]
     },
     {
