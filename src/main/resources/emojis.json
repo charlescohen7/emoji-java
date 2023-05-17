@@ -22014,5 +22014,173 @@
             "crown",
             "light skin tone"
         ]
+    },
+    {
+        "emojiChar": "🫨",
+        "emoji": "\uD83E\uDD28",
+        "description": "Shaking Face",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["face", "shake", "shaking"]
+    },
+    {
+        "emojiChar": "🩷",
+        "emoji": "\uD83E\uDDE7",
+        "description": "Pink Heart",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["heart", "love", "pink"]
+    },
+    {
+        "emojiChar": "🩵",
+        "emoji": "\uD83E\uDDE5",
+        "description": "Light Blue Heart",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["heart", "love", "blue"]
+    },
+    {
+        "emojiChar": "🩶",
+        "emoji": "\uD83E\uDDE6",
+        "description": "Grey Heart",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["heart", "love", "grey"]
+    },
+    {
+        "emojiChar": "🫏",
+        "emoji": "\uD83E\uDD8F",
+        "description": "Donkey",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["donkey", "animal"]
+    },
+    {
+        "emojiChar": "🫎",
+        "emoji": "\uD83E\uDD8E",
+        "description": "Moose",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["moose", "animal"]
+    },
+    {
+        "emojiChar": "🪿",
+        "emoji": "\uD83E\uDEBF",
+        "description": "Goose",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["goose", "bird", "animal"]
+    },
+    {
+        "emojiChar": "🪽",
+        "emoji": "\uD83E\uDEBD",
+        "description": "Wing",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["wing", "fly", "bird"]
+    },
+    {
+        "emojiChar": "🪼",
+        "emoji": "\uD83E\uDEBC",
+        "description": "Jellyfish",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["jellyfish", "animal", "sea"]
+    },
+    {
+        "emojiChar": "🪻",
+        "emoji": "\uD83E\uDEBB",
+        "description": "Hyacinth",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["hyacinth", "flower"]
+    },
+    {
+        "emojiChar": "🫛",
+        "emoji": "\uD83E\uDDDB",
+        "description": "Pea Pod",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["pea", "pod", "vegetable"]
+    },
+    {
+        "emojiChar": "🫚",
+        "emoji": "\uD83E\uDDDA",
+        "description": "Ginger",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["ginger", "spice"]
+    },
+    {
+        "emojiChar": "🪭",
+        "emoji": "\uD83E\uDEAD",
+        "description": "Folding Hand Fan",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["hand", "fan", "cool"]
+    },
+    {
+        "emojiChar": "🪮",
+        "emoji": "\uD83E\uDEAE",
+        "description": "Hair Pick",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["hair", "pick", "style"]
+    },
+    {
+        "emojiChar": "🪈",
+        "emoji": "\uD83E\uDE88",
+        "description": "Flute",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["flute", "music", "instrument"]
+    },
+    {
+        "emojiChar": "🪇",
+        "emoji": "\uD83E\uDE87",
+        "description": "Maracas",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["maracas", "music", "instrument"]
+    },
+    {
+        "emojiChar": "🪯",
+        "emoji": "\uD83E\uDEAF",
+        "description": "Khanda",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["khanda", "sikh", "symbol"]
+    },
+    {
+        "emojiChar": "🛜",
+        "emoji": "\uD83D\uDDDC",
+        "description": "Wireless",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["wireless", "communication"]
+    },
+    {
+        "emojiChar": "🫸",
+        "emoji": "\uD83E\uDDF8",
+        "description": "Rightwards Pushing Hand",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["hand", "push", "right"]
+    },
+    {
+        "emojiChar": "🫷",
+        "emoji": "\uD83E\uDDF7",
+        "description": "Leftwards Pushing Hand",
+        "supports_fitzpatrick": true,
+        "aliases": [],
+        "tags": ["hand", "push", "left"]
+    },
+    {
+        "emojiChar": "🐦\u200D⬛",
+        "emoji": "\uD83D\uDC26\u200D\u2B1B",
+        "description": "Black Bird",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["black", "bird", "animal"]
     }
 ]
