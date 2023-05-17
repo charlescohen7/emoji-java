@@ -21561,7 +21561,7 @@
     },
     {
         "emojiChar": "🫠",
-        "emoji": "\uD83E\uDDE0",
+        "emoji": "\uD83E\uDEE0",
         "description": "melting face",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21572,7 +21572,7 @@
     },
     {
         "emojiChar": "🫢",
-        "emoji": "\uD83E\uDDE2",
+        "emoji": "\uD83E\uDEE2",
         "description": "face with open eyes and hand over mouth",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21584,7 +21584,7 @@
     },
     {
         "emojiChar": "🫣",
-        "emoji": "\uD83E\uDDE3",
+        "emoji": "\uD83E\uDEE3",
         "description": "face with peeking eye",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21595,7 +21595,7 @@
     },
     {
         "emojiChar": "🫡",
-        "emoji": "\uD83E\uDDE1",
+        "emoji": "\uD83E\uDEE1",
         "description": "saluting face",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21606,7 +21606,7 @@
     },
     {
         "emojiChar": "🫥",
-        "emoji": "\uD83E\uDDE5",
+        "emoji": "\uD83E\uDEE5",
         "description": "dotted line face",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21617,7 +21617,7 @@
     },
     {
         "emojiChar": "🫤",
-        "emoji": "\uD83E\uDDE4",
+        "emoji": "\uD83E\uDEE4",
         "description": "face with diagonal mouth",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21628,7 +21628,7 @@
     },
     {
         "emojiChar": "🥹",
-        "emoji": "\uD83E\uDDF9",
+        "emoji": "\uD83E\uDD79",
         "description": "face holding back tears",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21639,7 +21639,7 @@
     },
     {
         "emojiChar": "🫱",
-        "emoji": "\uD83E\uDDE1",
+        "emoji": "\uD83E\uDEF1",
         "description": "rightwards hand",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21649,7 +21649,7 @@
     },
     {
         "emojiChar": "🫲",
-        "emoji": "\uD83E\uDDE2",
+        "emoji": "\uD83E\uDEF2",
         "description": "leftwards hand",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21669,7 +21669,7 @@
     },
     {
         "emojiChar": "🫴",
-        "emoji": "\uD83E\uDDE4",
+        "emoji": "\uD83E\uDEF4",
         "description": "palm up hand",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21679,7 +21679,7 @@
     },
     {
         "emojiChar": "🫰",
-        "emoji": "\uD83E\uDDF0",
+        "emoji": "\uD83E\uDEF0",
         "description": "hand with index finger and thumb crossed",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21691,7 +21691,7 @@
     },
     {
         "emojiChar": "🫵",
-        "emoji": "\uD83E\uDDF5",
+        "emoji": "\uD83E\uDEF5",
         "description": "index pointing at the viewer",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21702,7 +21702,7 @@
     },
     {
         "emojiChar": "🫦",
-        "emoji": "\uD83E\uDDE6",
+        "emoji": "\uD83E\uDEE6",
         "description": "biting lip",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21711,19 +21711,8 @@
         ]
     },
     {
-        "emojiChar": "🫅",
-        "emoji": "\uD83E\uDDE5",
-        "description": "person with crown",
-        "supports_fitzpatrick": true,
-        "aliases": [],
-        "tags": [
-            "person",
-            "crown"
-        ]
-    },
-    {
         "emojiChar": "🫃",
-        "emoji": "\uD83E\uDDE3",
+        "emoji": "\uD83E\uDEC3",
         "description": "pregnant man",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21733,7 +21722,7 @@
     },
     {
         "emojiChar": "🫄",
-        "emoji": "\uD83E\uDDE4",
+        "emoji": "\uD83E\uDEC4",
         "description": "pregnant person",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21794,7 +21783,7 @@
     },
     {
         "emojiChar": "🫘",
-        "emoji": "\uD83E\uDEE0",
+        "emoji": "\uD83E\uDED8",
         "description": "beans",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21804,7 +21793,7 @@
     },
     {
         "emojiChar": "🫗",
-        "emoji": "\uD83E\uDDE7",
+        "emoji": "\uD83E\uDED7",
         "description": "pouring liquid",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21814,7 +21803,7 @@
     },
     {
         "emojiChar": "🫙",
-        "emoji": "\uD83E\uDDE9",
+        "emoji": "\uD83E\uDED9",
         "description": "jar",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21854,7 +21843,7 @@
     },
     {
         "emojiChar": "🪬",
-        "emoji": "\uD83E\uDEEC",
+        "emoji": "\uD83E\uDEAC",
         "description": "hamsa",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21864,7 +21853,7 @@
     },
     {
         "emojiChar": "🪩",
-        "emoji": "\uD83E\uDEE9",
+        "emoji": "\uD83E\uDEA9",
         "description": "mirror ball",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21874,7 +21863,7 @@
     },
     {
         "emojiChar": "🪫",
-        "emoji": "\uD83E\uDEEB",
+        "emoji": "\uD83E\uDEAB",
         "description": "low battery",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21884,7 +21873,7 @@
     },
     {
         "emojiChar": "🩼",
-        "emoji": "\uD83E\uDEFC",
+        "emoji": "\uD83E\uDE7C",
         "description": "crutch",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21894,7 +21883,7 @@
     },
     {
         "emojiChar": "🩻",
-        "emoji": "\uD83E\uDEFB",
+        "emoji": "\uD83E\uDE7B",
         "description": "x-ray",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21904,7 +21893,7 @@
     },
     {
         "emojiChar": "🫧",
-        "emoji": "\uD83E\uDEF7",
+        "emoji": "\uD83E\uDEE7",
         "description": "bubbles",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21914,7 +21903,7 @@
     },
     {
         "emojiChar": "🪪",
-        "emoji": "\uD83E\uDEEA",
+        "emoji": "\uD83E\uDEAA",
         "description": "identification card",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21924,7 +21913,7 @@
     },
     {
         "emojiChar": "🟰",
-        "emoji": "\uD83E\uDDF0",
+        "emoji": "\uD83D\uDFF0",
         "description": "heavy equals sign",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -21957,7 +21946,7 @@
     },
     {
         "emojiChar": "🫱🏼\u200D🫲",
-        "emoji": "\uD83E\uDDE1\uD83C\uDFFC\u200D\uD83E\uDEF2",
+        "emoji": "\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2",
         "description": "handshake: medium-light skin tone, light skin tone",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21969,7 +21958,7 @@
     },
     {
         "emojiChar": "🫱🏽\u200D🫲",
-        "emoji": "\uD83E\uDDE1\uD83C\uDFFD\u200D\uD83E\uDEF2",
+        "emoji": "\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2",
         "description": "handshake: medium skin tone, light skin tone",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21981,7 +21970,7 @@
     },
     {
         "emojiChar": "🫱🏾\u200D🫲",
-        "emoji": "\uD83E\uDDE1\uD83C\uDFFE\u200D\uD83E\uDEF2",
+        "emoji": "\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2",
         "description": "handshake: medium-dark skin tone, light skin tone",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -21993,7 +21982,7 @@
     },
     {
         "emojiChar": "🫱🏿\u200D🫲",
-        "emoji": "\uD83E\uDDE1\uD83C\uDFFF\u200D\uD83E\uDEF2",
+        "emoji": "\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2",
         "description": "handshake: dark skin tone, light skin tone",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -22004,20 +21993,8 @@
         ]
     },
     {
-        "emojiChar": "🫅🏻",
-        "emoji": "\uD83E\uDDE5\uD83C\uDFFB",
-        "description": "person with crown: light skin tone",
-        "supports_fitzpatrick": true,
-        "aliases": [],
-        "tags": [
-            "person",
-            "crown",
-            "light skin tone"
-        ]
-    },
-    {
         "emojiChar": "🫨",
-        "emoji": "\uD83E\uDD28",
+        "emoji": "\uD83E\uDEE8",
         "description": "Shaking Face",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22025,7 +22002,7 @@
     },
     {
         "emojiChar": "🩷",
-        "emoji": "\uD83E\uDDE7",
+        "emoji": "\uD83E\uDE77",
         "description": "Pink Heart",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22033,7 +22010,7 @@
     },
     {
         "emojiChar": "🩵",
-        "emoji": "\uD83E\uDDE5",
+        "emoji": "\uD83E\uDE75",
         "description": "Light Blue Heart",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22041,7 +22018,7 @@
     },
     {
         "emojiChar": "🩶",
-        "emoji": "\uD83E\uDDE6",
+        "emoji": "\uD83E\uDE76",
         "description": "Grey Heart",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22049,7 +22026,7 @@
     },
     {
         "emojiChar": "🫏",
-        "emoji": "\uD83E\uDD8F",
+        "emoji": "\uD83E\uDECF",
         "description": "Donkey",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22057,7 +22034,7 @@
     },
     {
         "emojiChar": "🫎",
-        "emoji": "\uD83E\uDD8E",
+        "emoji": "\uD83E\uDECE",
         "description": "Moose",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22097,7 +22074,7 @@
     },
     {
         "emojiChar": "🫛",
-        "emoji": "\uD83E\uDDDB",
+        "emoji": "\uD83E\uDEDB",
         "description": "Pea Pod",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22105,7 +22082,7 @@
     },
     {
         "emojiChar": "🫚",
-        "emoji": "\uD83E\uDDDA",
+        "emoji": "\uD83E\uDEDA",
         "description": "Ginger",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22153,7 +22130,7 @@
     },
     {
         "emojiChar": "🛜",
-        "emoji": "\uD83D\uDDDC",
+        "emoji": "\uD83D\uDEDC",
         "description": "Wireless",
         "supports_fitzpatrick": false,
         "aliases": [],
@@ -22161,7 +22138,7 @@
     },
     {
         "emojiChar": "🫸",
-        "emoji": "\uD83E\uDDF8",
+        "emoji": "\uD83E\uDEF8",
         "description": "Rightwards Pushing Hand",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -22169,7 +22146,7 @@
     },
     {
         "emojiChar": "🫷",
-        "emoji": "\uD83E\uDDF7",
+        "emoji": "\uD83E\uDEF7",
         "description": "Leftwards Pushing Hand",
         "supports_fitzpatrick": true,
         "aliases": [],
@@ -22185,7 +22162,7 @@
     },
     {
         "emojiChar": "🍋‍🟩",
-        "emoji": "\uD83C\uDF4B\u200D\uD83D\uDFF9",
+        "emoji": "\uD83C\uDF4B\u200D\uD83D\uDFE9",
         "description": "Lime",
         "supports_fitzpatrick": false,
         "aliases": [],
