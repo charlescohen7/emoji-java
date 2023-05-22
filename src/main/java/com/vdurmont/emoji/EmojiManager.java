@@ -197,6 +197,7 @@ public class EmojiManager {
             .replaceAll("‍", "")
             .replaceAll("‎", "")
             .replaceAll("‏", "")
+            .replaceAll("⁩", "")
             .isEmpty();
 
   }
