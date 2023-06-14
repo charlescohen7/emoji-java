@@ -1945,6 +1945,19 @@
     },
     {
         "emojiChar": "✌️",
+        "emoji": "\u270C",
+        "description": "victory hand",
+        "supports_fitzpatrick": true,
+        "aliases": [
+            "v"
+        ],
+        "tags": [
+            "victory",
+            "peace"
+        ]
+    },
+    {
+        "emojiChar": "✌️",
         "emoji": "\u270C\uFE0F",
         "description": "victory hand",
         "supports_fitzpatrick": true,
