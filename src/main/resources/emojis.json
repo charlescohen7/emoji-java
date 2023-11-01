@@ -22252,5 +22252,13 @@
         "supports_fitzpatrick": true,
         "aliases": [],
         "tags": ["head", "shake", "horizontal"]
+    },
+    {
+        "emojiChar": "𓂺",
+        "emoji": "\uD80C\uDCBA",
+        "description": "Penis",
+        "supports_fitzpatrick": false,
+        "aliases": [],
+        "tags": ["penis"]
     }
 ]
