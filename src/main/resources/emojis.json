@@ -1573,6 +1573,17 @@
         ]
     },
     {
+        "emojiChar": "❤",
+        "emoji": "\u2764",
+        "description": "heart",
+        "aliases": [
+            "heart"
+        ],
+        "tags": [
+            "love"
+        ]
+    },
+    {
         "emojiChar": "♥",
         "emoji": "\u2665",
         "description": "default heart",
