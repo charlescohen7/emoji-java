@@ -15,6 +15,7 @@ public class Emoji {
   private final String description;
   private final boolean supportsFitzpatrick;
   private final boolean emoji_used_for_spam;
+  private final boolean is_sex_sign;
   private final List<String> aliases;
   private final List<String> tags;
   private final String unicode;
@@ -36,11 +37,13 @@ public class Emoji {
     List<String> aliases,
     List<String> tags,
     boolean emoji_used_for_spam,
+    boolean is_sex_sign,
     byte... bytes
   ) {
     this.description = description;
     this.supportsFitzpatrick = supportsFitzpatrick;
     this.emoji_used_for_spam = emoji_used_for_spam;
+    this.is_sex_sign = is_sex_sign;
     this.aliases = Collections.unmodifiableList(aliases);
     this.tags = Collections.unmodifiableList(tags);
 
@@ -98,6 +101,10 @@ public class Emoji {
 
   public boolean isEmojiUsedForSpam() {
     return this.emoji_used_for_spam;
+  }
+
+  public boolean isSexSign() {
+    return this.is_sex_sign;
   }
 
   /**

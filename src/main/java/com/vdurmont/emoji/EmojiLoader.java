@@ -79,9 +79,13 @@ public class EmojiLoader {
     if (json.has("emoji_used_for_spam")) {
       emoji_used_for_spam = json.getBoolean("emoji_used_for_spam");
     }
+    boolean is_sex_sign = false;
+    if (json.has("sex_sign")) {
+      is_sex_sign = json.getBoolean("sex_sign");
+    }
     List<String> aliases = jsonArrayToStringList(json.getJSONArray("aliases"));
     List<String> tags = jsonArrayToStringList(json.getJSONArray("tags"));
-    return new Emoji(description, supportsFitzpatrick, aliases, tags, emoji_used_for_spam, bytes);
+    return new Emoji(description, supportsFitzpatrick, aliases, tags, emoji_used_for_spam, is_sex_sign, bytes);
   }
 
   private static List<String> jsonArrayToStringList(JSONArray array) {

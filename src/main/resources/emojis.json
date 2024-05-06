@@ -16595,6 +16595,7 @@
         "emojiChar": "♀️",
         "emoji": "\u2640\uFE0F",
         "description": "female sign",
+        "sex_sign": true,
         "aliases": [
             "female_sign"
         ],
@@ -16606,6 +16607,7 @@
         "emojiChar": "♂️",
         "emoji": "\u2642\uFE0F",
         "description": "male sign",
+        "sex_sign": true,
         "aliases": [
             "male_sign"
         ],
