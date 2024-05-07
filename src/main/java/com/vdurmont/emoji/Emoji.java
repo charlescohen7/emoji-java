@@ -75,11 +75,11 @@ public class Emoji {
   }
 
   public boolean isMaleEmoji() {
-    return (this.unicode + this.sex_sign_unicode).contains("♂");
+    return (this.unicode + this.sex_sign_unicode).contains("♂") || (this.description != null && (this.description.startsWith("man") || (this.description.endsWith("man") && !this.description.contains("woman"))));
   }
 
   public boolean isFemaleEmoji() {
-    return (this.unicode + this.sex_sign_unicode).contains("♀");
+    return (this.unicode + this.sex_sign_unicode).contains("♀") || (this.description != null && (this.description.startsWith("woman") || this.description.endsWith("woman")));
   }
 
   /**
