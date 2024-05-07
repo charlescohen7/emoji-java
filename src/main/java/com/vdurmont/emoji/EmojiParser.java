@@ -1,6 +1,7 @@
 package com.vdurmont.emoji;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
@@ -398,7 +399,7 @@ public class EmojiParser {
 
   public static List<String> extractEmojis(String input) {
     List<UnicodeCandidate> emojis = getUnicodeCandidates(input);
-    List<String> result = new ArrayList<String>();
+    List<String> result = new ArrayList<>();
     for (UnicodeCandidate emoji : emojis) {
       if (emoji.getEmoji().supportsFitzpatrick() && emoji.hasFitzpatrick()) {
         result.add(emoji.getEmoji().getUnicode(emoji.getFitzpatrick()));
@@ -426,7 +427,13 @@ public class EmojiParser {
     List<UnicodeCandidate> candidates = new ArrayList<UnicodeCandidate>();
     UnicodeCandidate next;
     for (int i = 0; (next = getNextUnicodeCandidate(inputCharArray, i)) != null; i = next.getFitzpatrickEndIndex()) {
-      candidates.add(next);
+
+      if (next.getEmoji().isSexSign() && !candidates.isEmpty() && candidates.get(candidates.size() - 1).hasFitzpatrick()) {
+        candidates.get(candidates.size() - 1).getEmoji().addSexSign(next.getEmoji().getUnicode());
+      } else {
+        candidates.add(next);
+      }
+
     }
 
     return candidates;
@@ -478,7 +485,6 @@ public class EmojiParser {
     int best = -1;
     for (int j = startPos + 1; j <= text.length; j++) {
       EmojiTrie.Matches status = EmojiManager.EMOJI_TRIE.isEmoji(text, startPos, j);
-
       if (status.exactMatch()) {
         best = j;
       } else if (status.impossibleMatch()) {
@@ -503,6 +509,10 @@ public class EmojiParser {
 
     public Emoji getEmoji() {
       return emoji;
+    }
+
+    public boolean isBlackPerson() {
+      return this.hasFitzpatrick() && (this.getFitzpatrick().equals(Fitzpatrick.TYPE_5) || this.getFitzpatrick().equals(Fitzpatrick.TYPE_6));
     }
 
     public boolean hasFitzpatrick() {

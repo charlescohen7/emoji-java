@@ -18,6 +18,7 @@ public class Emoji {
   private final boolean is_sex_sign;
   private final List<String> aliases;
   private final List<String> tags;
+  private String sex_sign_unicode = "";
   private final String unicode;
   private final String htmlDec;
   private final String htmlHex;
@@ -67,6 +68,18 @@ public class Emoji {
     } catch (UnsupportedEncodingException e) {
       throw new RuntimeException(e);
     }
+  }
+
+  public void addSexSign(String sex_sign_unicode) {
+    this.sex_sign_unicode = sex_sign_unicode;
+  }
+
+  public boolean isMaleEmoji() {
+    return (this.unicode + this.sex_sign_unicode).contains("♂");
+  }
+
+  public boolean isFemaleEmoji() {
+    return (this.unicode + this.sex_sign_unicode).contains("♀");
   }
 
   /**
@@ -155,7 +168,7 @@ public class Emoji {
     } else if (fitzpatrick == null) {
       return this.getUnicode();
     }
-    return this.getUnicode() + fitzpatrick.unicode;
+    return this.getUnicode() + fitzpatrick.unicode + this.sex_sign_unicode;
   }
 
   /**
