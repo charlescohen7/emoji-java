@@ -515,6 +515,10 @@ public class EmojiParser {
       return this.hasFitzpatrick() && (this.getFitzpatrick().equals(Fitzpatrick.TYPE_5) || this.getFitzpatrick().equals(Fitzpatrick.TYPE_6));
     }
 
+    public boolean isWhitePerson() {
+      return this.hasFitzpatrick() && (this.getFitzpatrick().equals(Fitzpatrick.TYPE_1_2) || this.getFitzpatrick().equals(Fitzpatrick.TYPE_3));
+    }
+
     public boolean hasFitzpatrick() {
       return getFitzpatrick() != null;
     }
