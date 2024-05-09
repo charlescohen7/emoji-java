@@ -144,7 +144,13 @@ public class Emoji {
    * @return the unicode representation
    */
   public String getUnicode() {
-    return this.unicode + this.sex_sign_unicode;
+
+    if (this.sex_sign_unicode.isEmpty()) {
+      return this.unicode;
+    }
+
+    return this.unicode + "\u200D" + this.sex_sign_unicode;
+    
   }
 
   public String getUnicodeWithoutSexSign() {
