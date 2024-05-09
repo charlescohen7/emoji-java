@@ -509,8 +509,6 @@ public class EmojiParserTest {
     // WHEN
     List<String> result = EmojiParser.extractEmojisWithoutFitzpatrick(str);
 
-    System.out.println(result);
-
     // THEN
     assertEquals("😀", result.get(0));
     assertEquals("😃", result.get(1));
