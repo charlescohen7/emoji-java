@@ -144,6 +144,10 @@ public class Emoji {
    * @return the unicode representation
    */
   public String getUnicode() {
+    return this.unicode + this.sex_sign_unicode;
+  }
+
+  public String getUnicodeWithoutSexSign() {
     return this.unicode;
   }
 
@@ -168,7 +172,7 @@ public class Emoji {
     } else if (fitzpatrick == null) {
       return this.getUnicode();
     }
-    return this.getUnicode() + fitzpatrick.unicode + this.sex_sign_unicode;
+    return this.getUnicodeWithoutSexSign() + fitzpatrick.unicode + this.sex_sign_unicode;
   }
 
   /**
