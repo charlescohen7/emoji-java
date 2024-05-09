@@ -355,7 +355,7 @@ public class EmojiParser {
                 new String(chars, emojiEnd, 2) :
                 null;
         return new UnicodeCandidate(
-                emoji,
+                emoji.copy(),
                 fitzpatrickString,
                 i
         );

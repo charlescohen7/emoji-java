@@ -1,6 +1,7 @@
 package com.vdurmont.emoji;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.List;
 
@@ -12,14 +13,18 @@ import java.util.List;
  * @author Vincent DURMONT [vdurmont@gmail.com]
  */
 public class Emoji {
-  private final String description;
-  private final boolean supportsFitzpatrick;
-  private final boolean emoji_used_for_spam;
-  private final boolean is_sex_sign;
-  private final List<String> aliases;
-  private final List<String> tags;
-  private String sex_sign_unicode = "";
-  private final String unicode;
+  private String description;
+  private boolean supportsFitzpatrick;
+  private boolean emoji_used_for_spam;
+  private boolean is_sex_sign;
+  private List<String> aliases;
+  private List<String> tags;
+  private String sex_sign_unicode;
+  private String unicode;
+
+  protected Emoji() {
+
+  }
 
   /**
    * Constructor for the Emoji.
@@ -30,6 +35,8 @@ public class Emoji {
    * @param tags                the tags associated with this emoji
    * @param bytes               the bytes that represent the emoji
    */
+
+
   protected Emoji(
     String description,
     boolean supportsFitzpatrick,
@@ -46,12 +53,7 @@ public class Emoji {
     this.aliases = Collections.unmodifiableList(aliases);
     this.tags = Collections.unmodifiableList(tags);
     this.sex_sign_unicode = "";
-
-    try {
-      this.unicode = new String(bytes, "UTF-8");
-    } catch (UnsupportedEncodingException e) {
-      throw new RuntimeException(e);
-    }
+    this.unicode = new String(bytes, StandardCharsets.UTF_8);
   }
 
   public void addSexSign(String sex_sign_unicode) {
@@ -64,18 +66,6 @@ public class Emoji {
 
   public boolean isFemaleEmoji() {
     return (this.unicode + this.sex_sign_unicode).contains("♀") || (this.description != null && (this.description.startsWith("woman") || this.description.endsWith("woman")));
-  }
-
-  /**
-   * Method to replace String.join, since it was only introduced in java8
-   * @param array the array to be concatenated
-   * @return concatenated String
-   */
-  private String stringJoin(String[] array, int count){
-    String joined = "";
-    for(int i = 0; i < count; i++)
-      joined += array[i];
-    return joined;
   }
 
   /**
@@ -202,4 +192,22 @@ public class Emoji {
       ", unicode='" + this.getUnicode() + '\'' +
       '}';
   }
+
+  public Emoji copy() {
+
+    Emoji emoji = new Emoji();
+
+    emoji.description = this.description;
+    emoji.supportsFitzpatrick = this.supportsFitzpatrick;
+    emoji.emoji_used_for_spam = this.emoji_used_for_spam;
+    emoji.is_sex_sign = this.is_sex_sign;
+    emoji.aliases = this.aliases;
+    emoji.tags = this.tags;
+    emoji.sex_sign_unicode = this.sex_sign_unicode;
+    emoji.unicode = this.unicode;
+
+    return emoji;
+
+  }
+
 }
