@@ -20,8 +20,6 @@ public class Emoji {
   private final List<String> tags;
   private String sex_sign_unicode = "";
   private final String unicode;
-  private final String htmlDec;
-  private final String htmlHex;
 
   /**
    * Constructor for the Emoji.
@@ -47,24 +45,10 @@ public class Emoji {
     this.is_sex_sign = is_sex_sign;
     this.aliases = Collections.unmodifiableList(aliases);
     this.tags = Collections.unmodifiableList(tags);
+    this.sex_sign_unicode = "";
 
-    int count = 0;
     try {
       this.unicode = new String(bytes, "UTF-8");
-      int stringLength = getUnicode().length();
-      String[] pointCodes = new String[stringLength];
-      String[] pointCodesHex = new String[stringLength];
-
-      for (int offset = 0; offset < stringLength; ) {
-        final int codePoint = getUnicode().codePointAt(offset);
-
-        pointCodes[count] = String.format("&#%d;", codePoint);
-        pointCodesHex[count++] = String.format("&#x%x;", codePoint);
-
-        offset += Character.charCount(codePoint);
-      }
-      this.htmlDec = stringJoin(pointCodes, count);
-      this.htmlHex = stringJoin(pointCodesHex, count);
     } catch (UnsupportedEncodingException e) {
       throw new RuntimeException(e);
     }
@@ -150,7 +134,7 @@ public class Emoji {
     }
 
     return this.unicode + "\u200D" + this.sex_sign_unicode;
-    
+
   }
 
   public String getUnicodeWithoutSexSign() {
@@ -181,34 +165,6 @@ public class Emoji {
     return this.getUnicodeWithoutSexSign() + fitzpatrick.unicode + this.sex_sign_unicode;
   }
 
-  /**
-   * Returns the HTML decimal representation of the emoji
-   *
-   * @return the HTML decimal representation
-   */
-  public String getHtmlDecimal() {
-    return this.htmlDec;
-  }
-
-  /**
-   * @deprecated identical to {@link #getHtmlHexadecimal()} for
-   * backwards-compatibility. Use that instead.
-   *
-   * @return the HTML hexadecimal representation
-   */
-  public String getHtmlHexidecimal() {
-    return this.getHtmlHexadecimal();
-  }
-
-  /**
-   * Returns the HTML hexadecimal representation of the emoji
-   *
-   * @return the HTML hexadecimal representation
-   */
-  public String getHtmlHexadecimal() {
-    return this.htmlHex;
-  }
-
   @Override
   public boolean equals(Object other) {
     return !(other == null || !(other instanceof Emoji)) &&
@@ -217,7 +173,7 @@ public class Emoji {
 
   @Override
   public int hashCode() {
-    return unicode.hashCode();
+    return getUnicode().hashCode();
   }
 
   /**
@@ -243,9 +199,7 @@ public class Emoji {
       ", supportsFitzpatrick=" + supportsFitzpatrick +
       ", aliases=" + aliases +
       ", tags=" + tags +
-      ", unicode='" + unicode + '\'' +
-      ", htmlDec='" + htmlDec + '\'' +
-      ", htmlHex='" + htmlHex + '\'' +
+      ", unicode='" + this.getUnicode() + '\'' +
       '}';
   }
 }
