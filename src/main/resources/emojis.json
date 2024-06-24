@@ -2641,6 +2641,18 @@
         ]
     },
     {
+        "emojiChar": "🦱",
+        "emoji": "\uD83E\uDDB1",
+        "description": "curly hair",
+        "supports_fitzpatrick": false,
+        "aliases": [
+            "curly hair"
+        ],
+        "tags": [
+
+        ]
+    },
+    {
         "emojiChar": "👨‍🦱",
         "emoji": "\uD83D\uDC68\u200D\uD83E\uDDB1",
         "description": "man: curly hair",
