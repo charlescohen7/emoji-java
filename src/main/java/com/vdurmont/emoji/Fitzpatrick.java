@@ -55,4 +55,10 @@ public enum Fitzpatrick {
       return null;
     }
   }
+
+  @Override
+    public String toString() {
+        return this.unicode;
+    }
+
 }

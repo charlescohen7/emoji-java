@@ -185,12 +185,14 @@ public class Emoji {
   @Override
   public String toString() {
     return "Emoji{" +
-      "description='" + description + '\'' +
-      ", supportsFitzpatrick=" + supportsFitzpatrick +
-      ", aliases=" + aliases +
-      ", tags=" + tags +
-      ", unicode='" + this.getUnicode() + '\'' +
-      '}';
+            "description='" + description + '\'' +
+            ", supportsFitzpatrick=" + supportsFitzpatrick +
+            ", aliases=" + aliases +
+            ", tags=" + tags +
+            ", sex_sign_unicode=" + sex_sign_unicode +
+            ", is_sex_sign=" + is_sex_sign +
+            ", unicode='" + this.getUnicode() + '\'' +
+            '}';
   }
 
   public Emoji copy() {

@@ -276,25 +276,20 @@ public class EmojiParser {
     EmojiTransformer transformer
   ) {
     int prev = 0;
-    StringBuilder sb = new StringBuilder(input.length());
+    int input_length = input.length();
+    StringBuilder sb = new StringBuilder(input_length);
     List<UnicodeCandidate> replacements = getUnicodeCandidates(input);
-    System.out.println("Input: " + input);
-    System.out.println("Replacements: " + replacements);
-
     for (UnicodeCandidate candidate : replacements) {
-      System.out.println("Processing candidate: " + candidate);
       sb.append(input, prev, candidate.getEmojiStartIndex());
-      System.out.println("Current StringBuilder: " + sb.toString());
-
       sb.append(transformer.transform(candidate));
-      System.out.println("Transformed candidate: " + transformer.transform(candidate));
       prev = candidate.getFitzpatrickEndIndex();
-      System.out.println("Updated prev index: " + prev);
     }
-    System.out.println("Sb: " + sb.toString());
-    String result = sb.append(input.substring(prev)).toString();
-    System.out.println("Final result: " + result);
-    return result;
+
+    if (prev > input_length) {
+      prev = input_length;
+    }
+
+    return sb.append(input.substring(prev)).toString();
   }
 
   public static List<String> extractEmojis(String input) {
@@ -454,6 +449,21 @@ public class EmojiParser {
     public int getFitzpatrickEndIndex() {
       return getEmojiEndIndex() + (fitzpatrick != null ? 2 : 0);
     }
+
+    @Override
+    public String toString() {
+      return "UnicodeCandidate{" +
+              "emoji=" + emoji +
+              ", fitzpatrick=" + fitzpatrick +
+              ", startIndex=" + startIndex +
+              ", hasFitzpatrick=" + hasFitzpatrick() +
+              ", getFitzpatrickType=" + getFitzpatrickType() +
+              ", getFitzpatrickUnicode=" + getFitzpatrickUnicode() +
+              ", getEmojiEndIndex=" + getEmojiEndIndex() +
+              ", getFitzpatrickEndIndex=" + getFitzpatrickEndIndex() +
+              '}';
+    }
+
   }
 
 
